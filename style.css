@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin: 2rem 3rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #3b3b3b;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    height: 86%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerimg {
+    width: 100%;
+}
+
+.myself {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    gap: 2rem;
+}
+
+.aboutmyself {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1.8rem;
+    width: 50%;
+}
+
+.aboutmyself > h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #E4728A;
+}
+
+.aboutmyself > p {
+    color: #3b3b3b;
+}
+
+.hightlight {
+    font-weight: 600;
+    color: #E4728A;
+}
+
+.myselfimg {
+    width: 30%;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    background-color: #F2F2F2;
+}
+
+.skillgroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skillgroup > h1 {
+    font-size: 4rem;
+}
+
+.myskill {
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 4rem;
+}
+
+.skill1 {
+    width: 20%;
+}
+
+.pink {
+    color: #E4728A  ;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 22vh;
+    gap: 1rem;
+}
+
+.frame {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+
+.footercontact {
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+
+.footercontact > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactlogo {
+    width: 40%;
+}
+
+.made {
+    font-size: 1.2rem;
+}
+
